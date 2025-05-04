@@ -1,0 +1,1894 @@
+{
+    "graph": [
+        {
+            "distance": 27.970562748477146,
+            "first_node": 0,
+            "second_node": 1
+        },
+        {
+            "distance": 118.75230867899725,
+            "first_node": 0,
+            "second_node": 2
+        },
+        {
+            "distance": 144.36753236814712,
+            "first_node": 0,
+            "second_node": 3
+        },
+        {
+            "distance": 194.88225099390849,
+            "first_node": 0,
+            "second_node": 4
+        },
+        {
+            "distance": 248.30360723121856,
+            "first_node": 0,
+            "second_node": 5
+        },
+        {
+            "distance": 228.7228714274747,
+            "first_node": 0,
+            "second_node": 6
+        },
+        {
+            "distance": 296.85995641732273,
+            "first_node": 0,
+            "second_node": 7
+        },
+        {
+            "distance": 916.9331162702442,
+            "first_node": 0,
+            "second_node": 8
+        },
+        {
+            "distance": 344.90158697766554,
+            "first_node": 0,
+            "second_node": 9
+        },
+        {
+            "distance": 423.19805153394776,
+            "first_node": 0,
+            "second_node": 10
+        },
+        {
+            "distance": 292.5979797464468,
+            "first_node": 0,
+            "second_node": 11
+        },
+        {
+            "distance": 820.8792924010813,
+            "first_node": 0,
+            "second_node": 12
+        },
+        {
+            "distance": 516.1930009000652,
+            "first_node": 0,
+            "second_node": 13
+        },
+        {
+            "distance": 682.2274887854715,
+            "first_node": 0,
+            "second_node": 14
+        },
+        {
+            "distance": 654.6711395993673,
+            "first_node": 0,
+            "second_node": 15
+        },
+        {
+            "distance": 597.2884553295709,
+            "first_node": 0,
+            "second_node": 16
+        },
+        {
+            "distance": 604.3595231414364,
+            "first_node": 0,
+            "second_node": 17
+        },
+        {
+            "distance": 677.2001435750027,
+            "first_node": 0,
+            "second_node": 18
+        },
+        {
+            "distance": 700.0702012600917,
+            "first_node": 0,
+            "second_node": 19
+        },
+        {
+            "distance": 985.5899705197367,
+            "first_node": 0,
+            "second_node": 20
+        },
+        {
+            "distance": 620.1858582251278,
+            "first_node": 0,
+            "second_node": 21
+        },
+        {
+            "distance": 979.1879502661836,
+            "first_node": 0,
+            "second_node": 22
+        },
+        {
+            "distance": 989.7442994522878,
+            "first_node": 0,
+            "second_node": 23
+        },
+        {
+            "distance": 962.1757569573635,
+            "first_node": 0,
+            "second_node": 24
+        },
+        {
+            "distance": 1013.9970414071722,
+            "first_node": 0,
+            "second_node": 25
+        },
+        {
+            "distance": 1078.3696244092025,
+            "first_node": 0,
+            "second_node": 26
+        },
+        {
+            "distance": 1152.0508652763351,
+            "first_node": 0,
+            "second_node": 27
+        },
+        {
+            "distance": 104.19595949289322,
+            "first_node": 1,
+            "second_node": 2
+        },
+        {
+            "distance": 131.46803743153538,
+            "first_node": 1,
+            "second_node": 3
+        },
+        {
+            "distance": 181.98275605729683,
+            "first_node": 1,
+            "second_node": 4
+        },
+        {
+            "distance": 233.74725804511456,
+            "first_node": 1,
+            "second_node": 5
+        },
+        {
+            "distance": 215.8233764908629,
+            "first_node": 1,
+            "second_node": 6
+        },
+        {
+            "distance": 282.30360723121873,
+            "first_node": 1,
+            "second_node": 7
+        },
+        {
+            "distance": 903.2051942088864,
+            "first_node": 1,
+            "second_node": 8
+        },
+        {
+            "distance": 330.34523779156154,
+            "first_node": 1,
+            "second_node": 9
+        },
+        {
+            "distance": 408.64170234784376,
+            "first_node": 1,
+            "second_node": 10
+        },
+        {
+            "distance": 278.8700576850889,
+            "first_node": 1,
+            "second_node": 11
+        },
+        {
+            "distance": 807.1513703397235,
+            "first_node": 1,
+            "second_node": 12
+        },
+        {
+            "distance": 501.6366517139612,
+            "first_node": 1,
+            "second_node": 13
+        },
+        {
+            "distance": 668.4995667241136,
+            "first_node": 1,
+            "second_node": 14
+        },
+        {
+            "distance": 640.9432175380094,
+            "first_node": 1,
+            "second_node": 15
+        },
+        {
+            "distance": 582.7321061434669,
+            "first_node": 1,
+            "second_node": 16
+        },
+        {
+            "distance": 589.8031739553325,
+            "first_node": 1,
+            "second_node": 17
+        },
+        {
+            "distance": 662.6437943888988,
+            "first_node": 1,
+            "second_node": 18
+        },
+        {
+            "distance": 685.5138520739878,
+            "first_node": 1,
+            "second_node": 19
+        },
+        {
+            "distance": 971.8620484583788,
+            "first_node": 1,
+            "second_node": 20
+        },
+        {
+            "distance": 605.6295090390237,
+            "first_node": 1,
+            "second_node": 21
+        },
+        {
+            "distance": 965.4600282048258,
+            "first_node": 1,
+            "second_node": 22
+        },
+        {
+            "distance": 976.01637739093,
+            "first_node": 1,
+            "second_node": 23
+        },
+        {
+            "distance": 948.4478348960057,
+            "first_node": 1,
+            "second_node": 24
+        },
+        {
+            "distance": 1000.2691193458144,
+            "first_node": 1,
+            "second_node": 25
+        },
+        {
+            "distance": 1064.6417023478446,
+            "first_node": 1,
+            "second_node": 26
+        },
+        {
+            "distance": 1138.3229432149772,
+            "first_node": 1,
+            "second_node": 27
+        },
+        {
+            "distance": 142.9116882454314,
+            "first_node": 2,
+            "second_node": 3
+        },
+        {
+            "distance": 193.4264068711928,
+            "first_node": 2,
+            "second_node": 4
+        },
+        {
+            "distance": 145.99494936611663,
+            "first_node": 2,
+            "second_node": 5
+        },
+        {
+            "distance": 189.19090885901022,
+            "first_node": 2,
+            "second_node": 6
+        },
+        {
+            "distance": 194.5512985522208,
+            "first_node": 2,
+            "second_node": 7
+        },
+        {
+            "distance": 844.4478348960049,
+            "first_node": 2,
+            "second_node": 8
+        },
+        {
+            "distance": 242.5929291125636,
+            "first_node": 2,
+            "second_node": 9
+        },
+        {
+            "distance": 320.8893936688458,
+            "first_node": 2,
+            "second_node": 10
+        },
+        {
+            "distance": 237.85281374238576,
+            "first_node": 2,
+            "second_node": 11
+        },
+        {
+            "distance": 748.394011026842,
+            "first_node": 2,
+            "second_node": 12
+        },
+        {
+            "distance": 413.88434303496325,
+            "first_node": 2,
+            "second_node": 13
+        },
+        {
+            "distance": 609.7422074112321,
+            "first_node": 2,
+            "second_node": 14
+        },
+        {
+            "distance": 582.185858225128,
+            "first_node": 2,
+            "second_node": 15
+        },
+        {
+            "distance": 494.97979746446896,
+            "first_node": 2,
+            "second_node": 16
+        },
+        {
+            "distance": 502.0508652763345,
+            "first_node": 2,
+            "second_node": 17
+        },
+        {
+            "distance": 574.8914857099007,
+            "first_node": 2,
+            "second_node": 18
+        },
+        {
+            "distance": 597.7615433949898,
+            "first_node": 2,
+            "second_node": 19
+        },
+        {
+            "distance": 913.1046891454974,
+            "first_node": 2,
+            "second_node": 20
+        },
+        {
+            "distance": 517.8772003600257,
+            "first_node": 2,
+            "second_node": 21
+        },
+        {
+            "distance": 906.7026688919444,
+            "first_node": 2,
+            "second_node": 22
+        },
+        {
+            "distance": 917.2590180780485,
+            "first_node": 2,
+            "second_node": 23
+        },
+        {
+            "distance": 889.6904755831243,
+            "first_node": 2,
+            "second_node": 24
+        },
+        {
+            "distance": 941.511760032933,
+            "first_node": 2,
+            "second_node": 25
+        },
+        {
+            "distance": 1005.8843430349633,
+            "first_node": 2,
+            "second_node": 26
+        },
+        {
+            "distance": 1079.5655839020958,
+            "first_node": 2,
+            "second_node": 27
+        },
+        {
+            "distance": 57.727922061357845,
+            "first_node": 3,
+            "second_node": 4
+        },
+        {
+            "distance": 230.27922061357907,
+            "first_node": 3,
+            "second_node": 5
+        },
+        {
+            "distance": 109.14213562373092,
+            "first_node": 3,
+            "second_node": 6
+        },
+        {
+            "distance": 266.5340546095185,
+            "first_node": 3,
+            "second_node": 7
+        },
+        {
+            "distance": 842.0874452027946,
+            "first_node": 3,
+            "second_node": 8
+        },
+        {
+            "distance": 314.5756851698613,
+            "first_node": 3,
+            "second_node": 9
+        },
+        {
+            "distance": 392.87214972614356,
+            "first_node": 3,
+            "second_node": 10
+        },
+        {
+            "distance": 217.75230867899722,
+            "first_node": 3,
+            "second_node": 11
+        },
+        {
+            "distance": 746.0336213336318,
+            "first_node": 3,
+            "second_node": 12
+        },
+        {
+            "distance": 485.867099092261,
+            "first_node": 3,
+            "second_node": 13
+        },
+        {
+            "distance": 607.3818177180219,
+            "first_node": 3,
+            "second_node": 14
+        },
+        {
+            "distance": 579.8254685319176,
+            "first_node": 3,
+            "second_node": 15
+        },
+        {
+            "distance": 566.9625535217667,
+            "first_node": 3,
+            "second_node": 16
+        },
+        {
+            "distance": 574.0336213336323,
+            "first_node": 3,
+            "second_node": 17
+        },
+        {
+            "distance": 646.8742417671986,
+            "first_node": 3,
+            "second_node": 18
+        },
+        {
+            "distance": 669.7442994522876,
+            "first_node": 3,
+            "second_node": 19
+        },
+        {
+            "distance": 910.7442994522871,
+            "first_node": 3,
+            "second_node": 20
+        },
+        {
+            "distance": 545.3401871576791,
+            "first_node": 3,
+            "second_node": 21
+        },
+        {
+            "distance": 904.3422791987341,
+            "first_node": 3,
+            "second_node": 22
+        },
+        {
+            "distance": 914.8986283848382,
+            "first_node": 3,
+            "second_node": 23
+        },
+        {
+            "distance": 887.330085889914,
+            "first_node": 3,
+            "second_node": 24
+        },
+        {
+            "distance": 939.1513703397227,
+            "first_node": 3,
+            "second_node": 25
+        },
+        {
+            "distance": 1003.523953341753,
+            "first_node": 3,
+            "second_node": 26
+        },
+        {
+            "distance": 1077.2051942088856,
+            "first_node": 3,
+            "second_node": 27
+        },
+        {
+            "distance": 279.9655121145944,
+            "first_node": 4,
+            "second_node": 5
+        },
+        {
+            "distance": 114.81118318204304,
+            "first_node": 4,
+            "second_node": 6
+        },
+        {
+            "distance": 316.22034611053385,
+            "first_node": 4,
+            "second_node": 7
+        },
+        {
+            "distance": 856.040764008569,
+            "first_node": 4,
+            "second_node": 8
+        },
+        {
+            "distance": 364.2619766708766,
+            "first_node": 4,
+            "second_node": 9
+        },
+        {
+            "distance": 440.2152954766504,
+            "first_node": 4,
+            "second_node": 10
+        },
+        {
+            "distance": 231.70562748477158,
+            "first_node": 4,
+            "second_node": 11
+        },
+        {
+            "distance": 759.9869401394061,
+            "first_node": 4,
+            "second_node": 12
+        },
+        {
+            "distance": 533.2102448427678,
+            "first_node": 4,
+            "second_node": 13
+        },
+        {
+            "distance": 621.3351365237962,
+            "first_node": 4,
+            "second_node": 14
+        },
+        {
+            "distance": 593.778787337692,
+            "first_node": 4,
+            "second_node": 15
+        },
+        {
+            "distance": 614.3056992722735,
+            "first_node": 4,
+            "second_node": 16
+        },
+        {
+            "distance": 621.376767084139,
+            "first_node": 4,
+            "second_node": 17
+        },
+        {
+            "distance": 694.2173875177053,
+            "first_node": 4,
+            "second_node": 18
+        },
+        {
+            "distance": 717.0874452027944,
+            "first_node": 4,
+            "second_node": 19
+        },
+        {
+            "distance": 924.6976182580614,
+            "first_node": 4,
+            "second_node": 20
+        },
+        {
+            "distance": 559.2935059634534,
+            "first_node": 4,
+            "second_node": 21
+        },
+        {
+            "distance": 918.2955980045084,
+            "first_node": 4,
+            "second_node": 22
+        },
+        {
+            "distance": 928.8519471906126,
+            "first_node": 4,
+            "second_node": 23
+        },
+        {
+            "distance": 901.2834046956883,
+            "first_node": 4,
+            "second_node": 24
+        },
+        {
+            "distance": 953.104689145497,
+            "first_node": 4,
+            "second_node": 25
+        },
+        {
+            "distance": 1017.4772721475273,
+            "first_node": 4,
+            "second_node": 26
+        },
+        {
+            "distance": 1091.1585130146598,
+            "first_node": 4,
+            "second_node": 27
+        },
+        {
+            "distance": 226.85281374238582,
+            "first_node": 5,
+            "second_node": 6
+        },
+        {
+            "distance": 51.48528137423856,
+            "first_node": 5,
+            "second_node": 7
+        },
+        {
+            "distance": 701.381817718022,
+            "first_node": 5,
+            "second_node": 8
+        },
+        {
+            "distance": 99.52691193458112,
+            "first_node": 5,
+            "second_node": 9
+        },
+        {
+            "distance": 177.8233764908627,
+            "first_node": 5,
+            "second_node": 10
+        },
+        {
+            "distance": 180.30865786510154,
+            "first_node": 5,
+            "second_node": 11
+        },
+        {
+            "distance": 605.3279938488591,
+            "first_node": 5,
+            "second_node": 12
+        },
+        {
+            "distance": 270.81832585698015,
+            "first_node": 5,
+            "second_node": 13
+        },
+        {
+            "distance": 466.6761902332493,
+            "first_node": 5,
+            "second_node": 14
+        },
+        {
+            "distance": 439.11984104714514,
+            "first_node": 5,
+            "second_node": 15
+        },
+        {
+            "distance": 351.91378028648586,
+            "first_node": 5,
+            "second_node": 16
+        },
+        {
+            "distance": 358.9848480983514,
+            "first_node": 5,
+            "second_node": 17
+        },
+        {
+            "distance": 431.8254685319177,
+            "first_node": 5,
+            "second_node": 18
+        },
+        {
+            "distance": 454.6955262170067,
+            "first_node": 5,
+            "second_node": 19
+        },
+        {
+            "distance": 770.0386719675145,
+            "first_node": 5,
+            "second_node": 20
+        },
+        {
+            "distance": 374.81118318204324,
+            "first_node": 5,
+            "second_node": 21
+        },
+        {
+            "distance": 763.6366517139614,
+            "first_node": 5,
+            "second_node": 22
+        },
+        {
+            "distance": 774.1930009000657,
+            "first_node": 5,
+            "second_node": 23
+        },
+        {
+            "distance": 746.6244584051414,
+            "first_node": 5,
+            "second_node": 24
+        },
+        {
+            "distance": 798.44574285495,
+            "first_node": 5,
+            "second_node": 25
+        },
+        {
+            "distance": 862.8183258569804,
+            "first_node": 5,
+            "second_node": 26
+        },
+        {
+            "distance": 936.4995667241133,
+            "first_node": 5,
+            "second_node": 27
+        },
+        {
+            "distance": 259.69343417595223,
+            "first_node": 6,
+            "second_node": 7
+        },
+        {
+            "distance": 747.572726577033,
+            "first_node": 6,
+            "second_node": 8
+        },
+        {
+            "distance": 307.73506473629504,
+            "first_node": 6,
+            "second_node": 9
+        },
+        {
+            "distance": 358.10764773832466,
+            "first_node": 6,
+            "second_node": 10
+        },
+        {
+            "distance": 123.23759005323579,
+            "first_node": 6,
+            "second_node": 11
+        },
+        {
+            "distance": 651.5189027078701,
+            "first_node": 6,
+            "second_node": 12
+        },
+        {
+            "distance": 451.10259710444205,
+            "first_node": 6,
+            "second_node": 13
+        },
+        {
+            "distance": 512.8670990922602,
+            "first_node": 6,
+            "second_node": 14
+        },
+        {
+            "distance": 485.3107499061561,
+            "first_node": 6,
+            "second_node": 15
+        },
+        {
+            "distance": 532.1980515339478,
+            "first_node": 6,
+            "second_node": 16
+        },
+        {
+            "distance": 539.2691193458132,
+            "first_node": 6,
+            "second_node": 17
+        },
+        {
+            "distance": 612.1097397793797,
+            "first_node": 6,
+            "second_node": 18
+        },
+        {
+            "distance": 634.9797974644687,
+            "first_node": 6,
+            "second_node": 19
+        },
+        {
+            "distance": 816.2295808265254,
+            "first_node": 6,
+            "second_node": 20
+        },
+        {
+            "distance": 450.82546853191747,
+            "first_node": 6,
+            "second_node": 21
+        },
+        {
+            "distance": 809.8275605729724,
+            "first_node": 6,
+            "second_node": 22
+        },
+        {
+            "distance": 820.3839097590766,
+            "first_node": 6,
+            "second_node": 23
+        },
+        {
+            "distance": 792.8153672641524,
+            "first_node": 6,
+            "second_node": 24
+        },
+        {
+            "distance": 844.636651713961,
+            "first_node": 6,
+            "second_node": 25
+        },
+        {
+            "distance": 909.0092347159913,
+            "first_node": 6,
+            "second_node": 26
+        },
+        {
+            "distance": 982.690475583124,
+            "first_node": 6,
+            "second_node": 27
+        },
+        {
+            "distance": 659.1686142824257,
+            "first_node": 7,
+            "second_node": 8
+        },
+        {
+            "distance": 48.04163056034261,
+            "first_node": 7,
+            "second_node": 9
+        },
+        {
+            "distance": 126.33809511662415,
+            "first_node": 7,
+            "second_node": 10
+        },
+        {
+            "distance": 187.32590180780443,
+            "first_node": 7,
+            "second_node": 11
+        },
+        {
+            "distance": 563.1147904132628,
+            "first_node": 7,
+            "second_node": 12
+        },
+        {
+            "distance": 219.3330444827413,
+            "first_node": 7,
+            "second_node": 13
+        },
+        {
+            "distance": 424.46298679765295,
+            "first_node": 7,
+            "second_node": 14
+        },
+        {
+            "distance": 396.9066376115488,
+            "first_node": 7,
+            "second_node": 15
+        },
+        {
+            "distance": 300.428498912247,
+            "first_node": 7,
+            "second_node": 16
+        },
+        {
+            "distance": 307.4995667241125,
+            "first_node": 7,
+            "second_node": 17
+        },
+        {
+            "distance": 380.3401871576788,
+            "first_node": 7,
+            "second_node": 18
+        },
+        {
+            "distance": 403.21024484276785,
+            "first_node": 7,
+            "second_node": 19
+        },
+        {
+            "distance": 727.8254685319181,
+            "first_node": 7,
+            "second_node": 20
+        },
+        {
+            "distance": 330.94112549695444,
+            "first_node": 7,
+            "second_node": 21
+        },
+        {
+            "distance": 721.4234482783651,
+            "first_node": 7,
+            "second_node": 22
+        },
+        {
+            "distance": 731.9797974644694,
+            "first_node": 7,
+            "second_node": 23
+        },
+        {
+            "distance": 704.411254969545,
+            "first_node": 7,
+            "second_node": 24
+        },
+        {
+            "distance": 756.2325394193537,
+            "first_node": 7,
+            "second_node": 25
+        },
+        {
+            "distance": 820.605122421384,
+            "first_node": 7,
+            "second_node": 26
+        },
+        {
+            "distance": 894.2863632885169,
+            "first_node": 7,
+            "second_node": 27
+        },
+        {
+            "distance": 667.1513703397227,
+            "first_node": 8,
+            "second_node": 9
+        },
+        {
+            "distance": 640.1757569573629,
+            "first_node": 8,
+            "second_node": 10
+        },
+        {
+            "distance": 626.9209229614235,
+            "first_node": 8,
+            "second_node": 11
+        },
+        {
+            "distance": 98.39696961966989,
+            "first_node": 8,
+            "second_node": 12
+        },
+        {
+            "distance": 657.3645737753193,
+            "first_node": 8,
+            "second_node": 13
+        },
+        {
+            "distance": 236.9482681718912,
+            "first_node": 8,
+            "second_node": 14
+        },
+        {
+            "distance": 263.09040379562225,
+            "first_node": 8,
+            "second_node": 15
+        },
+        {
+            "distance": 684.6122650963212,
+            "first_node": 8,
+            "second_node": 16
+        },
+        {
+            "distance": 687.5411972844556,
+            "first_node": 8,
+            "second_node": 17
+        },
+        {
+            "distance": 738.8427124746204,
+            "first_node": 8,
+            "second_node": 18
+        },
+        {
+            "distance": 761.7127701597094,
+            "first_node": 8,
+            "second_node": 19
+        },
+        {
+            "distance": 333.83556979968273,
+            "first_node": 8,
+            "second_node": 20
+        },
+        {
+            "distance": 515.4650788387075,
+            "first_node": 8,
+            "second_node": 21
+        },
+        {
+            "distance": 356.1370849898476,
+            "first_node": 8,
+            "second_node": 22
+        },
+        {
+            "distance": 473.7371567773496,
+            "first_node": 8,
+            "second_node": 23
+        },
+        {
+            "distance": 356.69848480983495,
+            "first_node": 8,
+            "second_node": 24
+        },
+        {
+            "distance": 472.30865786510134,
+            "first_node": 8,
+            "second_node": 25
+        },
+        {
+            "distance": 562.3624817342643,
+            "first_node": 8,
+            "second_node": 26
+        },
+        {
+            "distance": 636.0437226013969,
+            "first_node": 8,
+            "second_node": 27
+        },
+        {
+            "distance": 89.81118318204301,
+            "first_node": 9,
+            "second_node": 10
+        },
+        {
+            "distance": 209.367532368147,
+            "first_node": 9,
+            "second_node": 11
+        },
+        {
+            "distance": 571.0975464705597,
+            "first_node": 9,
+            "second_node": 12
+        },
+        {
+            "distance": 182.80613254815992,
+            "first_node": 9,
+            "second_node": 13
+        },
+        {
+            "distance": 432.4457428549498,
+            "first_node": 9,
+            "second_node": 14
+        },
+        {
+            "distance": 404.8893936688456,
+            "first_node": 9,
+            "second_node": 15
+        },
+        {
+            "distance": 272.1025971044421,
+            "first_node": 9,
+            "second_node": 16
+        },
+        {
+            "distance": 279.17366491630764,
+            "first_node": 9,
+            "second_node": 17
+        },
+        {
+            "distance": 352.01428534987394,
+            "first_node": 9,
+            "second_node": 18
+        },
+        {
+            "distance": 374.88434303496297,
+            "first_node": 9,
+            "second_node": 19
+        },
+        {
+            "distance": 735.808224589215,
+            "first_node": 9,
+            "second_node": 20
+        },
+        {
+            "distance": 328.1543289325509,
+            "first_node": 9,
+            "second_node": 21
+        },
+        {
+            "distance": 729.406204335662,
+            "first_node": 9,
+            "second_node": 22
+        },
+        {
+            "distance": 739.9625535217662,
+            "first_node": 9,
+            "second_node": 23
+        },
+        {
+            "distance": 712.3940110268419,
+            "first_node": 9,
+            "second_node": 24
+        },
+        {
+            "distance": 764.2152954766506,
+            "first_node": 9,
+            "second_node": 25
+        },
+        {
+            "distance": 828.5878784786809,
+            "first_node": 9,
+            "second_node": 26
+        },
+        {
+            "distance": 902.2691193458138,
+            "first_node": 9,
+            "second_node": 27
+        },
+        {
+            "distance": 246.2426406871193,
+            "first_node": 10,
+            "second_node": 11
+        },
+        {
+            "distance": 544.1219330881996,
+            "first_node": 10,
+            "second_node": 12
+        },
+        {
+            "distance": 104.26702730475868,
+            "first_node": 10,
+            "second_node": 13
+        },
+        {
+            "distance": 405.4701294725898,
+            "first_node": 10,
+            "second_node": 14
+        },
+        {
+            "distance": 377.91378028648563,
+            "first_node": 10,
+            "second_node": 15
+        },
+        {
+            "distance": 197.0782104868021,
+            "first_node": 10,
+            "second_node": 16
+        },
+        {
+            "distance": 204.14927829866764,
+            "first_node": 10,
+            "second_node": 17
+        },
+        {
+            "distance": 276.98989873223394,
+            "first_node": 10,
+            "second_node": 18
+        },
+        {
+            "distance": 299.85995641732296,
+            "first_node": 10,
+            "second_node": 19
+        },
+        {
+            "distance": 708.832611206855,
+            "first_node": 10,
+            "second_node": 20
+        },
+        {
+            "distance": 301.1787155501903,
+            "first_node": 10,
+            "second_node": 21
+        },
+        {
+            "distance": 702.4305909533019,
+            "first_node": 10,
+            "second_node": 22
+        },
+        {
+            "distance": 712.9869401394061,
+            "first_node": 10,
+            "second_node": 23
+        },
+        {
+            "distance": 685.4183976444818,
+            "first_node": 10,
+            "second_node": 24
+        },
+        {
+            "distance": 737.2396820942905,
+            "first_node": 10,
+            "second_node": 25
+        },
+        {
+            "distance": 801.6122650963208,
+            "first_node": 10,
+            "second_node": 26
+        },
+        {
+            "distance": 875.2935059634534,
+            "first_node": 10,
+            "second_node": 27
+        },
+        {
+            "distance": 530.8670990922602,
+            "first_node": 11,
+            "second_node": 12
+        },
+        {
+            "distance": 339.2375900532358,
+            "first_node": 11,
+            "second_node": 13
+        },
+        {
+            "distance": 392.2152954766504,
+            "first_node": 11,
+            "second_node": 14
+        },
+        {
+            "distance": 364.6589462905462,
+            "first_node": 11,
+            "second_node": 15
+        },
+        {
+            "distance": 420.33304448274134,
+            "first_node": 11,
+            "second_node": 16
+        },
+        {
+            "distance": 427.4041122946069,
+            "first_node": 11,
+            "second_node": 17
+        },
+        {
+            "distance": 500.2447327281731,
+            "first_node": 11,
+            "second_node": 18
+        },
+        {
+            "distance": 523.1147904132621,
+            "first_node": 11,
+            "second_node": 19
+        },
+        {
+            "distance": 695.5777772109155,
+            "first_node": 11,
+            "second_node": 20
+        },
+        {
+            "distance": 330.1736649163076,
+            "first_node": 11,
+            "second_node": 21
+        },
+        {
+            "distance": 689.1757569573626,
+            "first_node": 11,
+            "second_node": 22
+        },
+        {
+            "distance": 699.7321061434667,
+            "first_node": 11,
+            "second_node": 23
+        },
+        {
+            "distance": 672.1635636485425,
+            "first_node": 11,
+            "second_node": 24
+        },
+        {
+            "distance": 723.9848480983511,
+            "first_node": 11,
+            "second_node": 25
+        },
+        {
+            "distance": 788.3574311003815,
+            "first_node": 11,
+            "second_node": 26
+        },
+        {
+            "distance": 862.0386719675141,
+            "first_node": 11,
+            "second_node": 27
+        },
+        {
+            "distance": 561.3107499061562,
+            "first_node": 12,
+            "second_node": 13
+        },
+        {
+            "distance": 140.8944443027282,
+            "first_node": 12,
+            "second_node": 14
+        },
+        {
+            "distance": 167.03657992645913,
+            "first_node": 12,
+            "second_node": 15
+        },
+        {
+            "distance": 588.558441227158,
+            "first_node": 12,
+            "second_node": 16
+        },
+        {
+            "distance": 591.4873734152925,
+            "first_node": 12,
+            "second_node": 17
+        },
+        {
+            "distance": 642.7888886054573,
+            "first_node": 12,
+            "second_node": 18
+        },
+        {
+            "distance": 665.6589462905463,
+            "first_node": 12,
+            "second_node": 19
+        },
+        {
+            "distance": 279.30360723121856,
+            "first_node": 12,
+            "second_node": 20
+        },
+        {
+            "distance": 419.41125496954436,
+            "first_node": 12,
+            "second_node": 21
+        },
+        {
+            "distance": 301.6051224213833,
+            "first_node": 12,
+            "second_node": 22
+        },
+        {
+            "distance": 379.4406922210673,
+            "first_node": 12,
+            "second_node": 23
+        },
+        {
+            "distance": 302.1665222413703,
+            "first_node": 12,
+            "second_node": 24
+        },
+        {
+            "distance": 378.0121933088197,
+            "first_node": 12,
+            "second_node": 25
+        },
+        {
+            "distance": 468.06601717798196,
+            "first_node": 12,
+            "second_node": 26
+        },
+        {
+            "distance": 541.7472580451147,
+            "first_node": 12,
+            "second_node": 27
+        },
+        {
+            "distance": 422.6589462905462,
+            "first_node": 13,
+            "second_node": 14
+        },
+        {
+            "distance": 395.10259710444205,
+            "first_node": 13,
+            "second_node": 15
+        },
+        {
+            "distance": 101.88225099390849,
+            "first_node": 13,
+            "second_node": 16
+        },
+        {
+            "distance": 108.95331880577395,
+            "first_node": 13,
+            "second_node": 17
+        },
+        {
+            "distance": 181.7939392393399,
+            "first_node": 13,
+            "second_node": 18
+        },
+        {
+            "distance": 204.66399692442891,
+            "first_node": 13,
+            "second_node": 19
+        },
+        {
+            "distance": 726.0214280248117,
+            "first_node": 13,
+            "second_node": 20
+        },
+        {
+            "distance": 255.68838354206895,
+            "first_node": 13,
+            "second_node": 21
+        },
+        {
+            "distance": 719.6194077712584,
+            "first_node": 13,
+            "second_node": 22
+        },
+        {
+            "distance": 730.1757569573625,
+            "first_node": 13,
+            "second_node": 23
+        },
+        {
+            "distance": 702.6072144624387,
+            "first_node": 13,
+            "second_node": 24
+        },
+        {
+            "distance": 754.4284989122469,
+            "first_node": 13,
+            "second_node": 25
+        },
+        {
+            "distance": 818.8010819142772,
+            "first_node": 13,
+            "second_node": 26
+        },
+        {
+            "distance": 892.4823227814098,
+            "first_node": 13,
+            "second_node": 27
+        },
+        {
+            "distance": 28.384776310850242,
+            "first_node": 14,
+            "second_node": 15
+        },
+        {
+            "distance": 449.9066376115483,
+            "first_node": 14,
+            "second_node": 16
+        },
+        {
+            "distance": 452.83556979968284,
+            "first_node": 14,
+            "second_node": 17
+        },
+        {
+            "distance": 504.1370849898475,
+            "first_node": 14,
+            "second_node": 18
+        },
+        {
+            "distance": 527.0071426749367,
+            "first_node": 14,
+            "second_node": 19
+        },
+        {
+            "distance": 311.40411229460705,
+            "first_node": 14,
+            "second_node": 20
+        },
+        {
+            "distance": 280.7594513539345,
+            "first_node": 14,
+            "second_node": 21
+        },
+        {
+            "distance": 305.002092041054,
+            "first_node": 14,
+            "second_node": 22
+        },
+        {
+            "distance": 315.5584412271583,
+            "first_node": 14,
+            "second_node": 23
+        },
+        {
+            "distance": 287.98989873223394,
+            "first_node": 14,
+            "second_node": 24
+        },
+        {
+            "distance": 339.811183182043,
+            "first_node": 14,
+            "second_node": 25
+        },
+        {
+            "distance": 404.18376618407353,
+            "first_node": 14,
+            "second_node": 26
+        },
+        {
+            "distance": 477.8650070512056,
+            "first_node": 14,
+            "second_node": 27
+        },
+        {
+            "distance": 422.3502884254443,
+            "first_node": 15,
+            "second_node": 16
+        },
+        {
+            "distance": 425.27922061357873,
+            "first_node": 15,
+            "second_node": 17
+        },
+        {
+            "distance": 476.58073580374355,
+            "first_node": 15,
+            "second_node": 18
+        },
+        {
+            "distance": 499.45079348883263,
+            "first_node": 15,
+            "second_node": 19
+        },
+        {
+            "distance": 331.7472580451149,
+            "first_node": 15,
+            "second_node": 20
+        },
+        {
+            "distance": 253.2031021678303,
+            "first_node": 15,
+            "second_node": 21
+        },
+        {
+            "distance": 325.3452377915619,
+            "first_node": 15,
+            "second_node": 22
+        },
+        {
+            "distance": 335.9015869776661,
+            "first_node": 15,
+            "second_node": 23
+        },
+        {
+            "distance": 308.3330444827418,
+            "first_node": 15,
+            "second_node": 24
+        },
+        {
+            "distance": 360.1543289325506,
+            "first_node": 15,
+            "second_node": 25
+        },
+        {
+            "distance": 424.5269119345811,
+            "first_node": 15,
+            "second_node": 26
+        },
+        {
+            "distance": 498.2081528017134,
+            "first_node": 15,
+            "second_node": 27
+        },
+        {
+            "distance": 8.82842712474619,
+            "first_node": 16,
+            "second_node": 17
+        },
+        {
+            "distance": 81.66904755831209,
+            "first_node": 16,
+            "second_node": 18
+        },
+        {
+            "distance": 104.53910524340085,
+            "first_node": 16,
+            "second_node": 19
+        },
+        {
+            "distance": 753.2691193458141,
+            "first_node": 16,
+            "second_node": 20
+        },
+        {
+            "distance": 280.5929291125634,
+            "first_node": 16,
+            "second_node": 21
+        },
+        {
+            "distance": 746.8670990922614,
+            "first_node": 16,
+            "second_node": 22
+        },
+        {
+            "distance": 757.4234482783653,
+            "first_node": 16,
+            "second_node": 23
+        },
+        {
+            "distance": 729.8549057834413,
+            "first_node": 16,
+            "second_node": 24
+        },
+        {
+            "distance": 781.6761902332497,
+            "first_node": 16,
+            "second_node": 25
+        },
+        {
+            "distance": 846.04877323528,
+            "first_node": 16,
+            "second_node": 26
+        },
+        {
+            "distance": 919.7300141024126,
+            "first_node": 16,
+            "second_node": 27
+        },
+        {
+            "distance": 73.42640687119281,
+            "first_node": 17,
+            "second_node": 18
+        },
+        {
+            "distance": 96.29646455628158,
+            "first_node": 17,
+            "second_node": 19
+        },
+        {
+            "distance": 756.1980515339487,
+            "first_node": 17,
+            "second_node": 20
+        },
+        {
+            "distance": 283.52186130069794,
+            "first_node": 17,
+            "second_node": 21
+        },
+        {
+            "distance": 749.7960312803959,
+            "first_node": 17,
+            "second_node": 22
+        },
+        {
+            "distance": 760.3523804664998,
+            "first_node": 17,
+            "second_node": 23
+        },
+        {
+            "distance": 732.7838379715758,
+            "first_node": 17,
+            "second_node": 24
+        },
+        {
+            "distance": 784.6051224213843,
+            "first_node": 17,
+            "second_node": 25
+        },
+        {
+            "distance": 848.9777054234146,
+            "first_node": 17,
+            "second_node": 26
+        },
+        {
+            "distance": 922.6589462905472,
+            "first_node": 17,
+            "second_node": 27
+        },
+        {
+            "distance": 26.384776310850242,
+            "first_node": 18,
+            "second_node": 19
+        },
+        {
+            "distance": 807.4995667241137,
+            "first_node": 18,
+            "second_node": 20
+        },
+        {
+            "distance": 330.6812408671321,
+            "first_node": 18,
+            "second_node": 21
+        },
+        {
+            "distance": 801.0975464705607,
+            "first_node": 18,
+            "second_node": 22
+        },
+        {
+            "distance": 811.6538956566649,
+            "first_node": 18,
+            "second_node": 23
+        },
+        {
+            "distance": 784.0853531617406,
+            "first_node": 18,
+            "second_node": 24
+        },
+        {
+            "distance": 835.9066376115493,
+            "first_node": 18,
+            "second_node": 25
+        },
+        {
+            "distance": 900.2792206135796,
+            "first_node": 18,
+            "second_node": 26
+        },
+        {
+            "distance": 973.9604614807122,
+            "first_node": 18,
+            "second_node": 27
+        },
+        {
+            "distance": 830.3696244092025,
+            "first_node": 19,
+            "second_node": 20
+        },
+        {
+            "distance": 352.7228714274748,
+            "first_node": 19,
+            "second_node": 21
+        },
+        {
+            "distance": 823.9676041556495,
+            "first_node": 19,
+            "second_node": 22
+        },
+        {
+            "distance": 834.5239533417537,
+            "first_node": 19,
+            "second_node": 23
+        },
+        {
+            "distance": 806.9554108468294,
+            "first_node": 19,
+            "second_node": 24
+        },
+        {
+            "distance": 858.7766952966381,
+            "first_node": 19,
+            "second_node": 25
+        },
+        {
+            "distance": 923.1492782986684,
+            "first_node": 19,
+            "second_node": 26
+        },
+        {
+            "distance": 996.830519165801,
+            "first_node": 19,
+            "second_node": 27
+        },
+        {
+            "distance": 584.1219330881997,
+            "first_node": 20,
+            "second_node": 21
+        },
+        {
+            "distance": 46.52691193458117,
+            "first_node": 20,
+            "second_node": 22
+        },
+        {
+            "distance": 417.4680374315356,
+            "first_node": 20,
+            "second_node": 23
+        },
+        {
+            "distance": 104.02438661763941,
+            "first_node": 20,
+            "second_node": 24
+        },
+        {
+            "distance": 239.1320343559649,
+            "first_node": 20,
+            "second_node": 25
+        },
+        {
+            "distance": 325.08535316173953,
+            "first_node": 20,
+            "second_node": 26
+        },
+        {
+            "distance": 402.8670990922604,
+            "first_node": 20,
+            "second_node": 27
+        },
+        {
+            "distance": 577.7199128346466,
+            "first_node": 21,
+            "second_node": 22
+        },
+        {
+            "distance": 588.2762620207508,
+            "first_node": 21,
+            "second_node": 23
+        },
+        {
+            "distance": 560.7077195258265,
+            "first_node": 21,
+            "second_node": 24
+        },
+        {
+            "distance": 612.5290039756352,
+            "first_node": 21,
+            "second_node": 25
+        },
+        {
+            "distance": 676.9015869776655,
+            "first_node": 21,
+            "second_node": 26
+        },
+        {
+            "distance": 750.5828278447981,
+            "first_node": 21,
+            "second_node": 27
+        },
+        {
+            "distance": 387.04163056034264,
+            "first_node": 22,
+            "second_node": 23
+        },
+        {
+            "distance": 73.5979797464466,
+            "first_node": 22,
+            "second_node": 24
+        },
+        {
+            "distance": 208.70562748477178,
+            "first_node": 22,
+            "second_node": 25
+        },
+        {
+            "distance": 294.6589462905464,
+            "first_node": 22,
+            "second_node": 26
+        },
+        {
+            "distance": 372.44069222106725,
+            "first_node": 22,
+            "second_node": 27
+        },
+        {
+            "distance": 322.556349186104,
+            "first_node": 23,
+            "second_node": 24
+        },
+        {
+            "distance": 263.6639969244288,
+            "first_node": 23,
+            "second_node": 25
+        },
+        {
+            "distance": 247.07315985291933,
+            "first_node": 23,
+            "second_node": 26
+        },
+        {
+            "distance": 268.80613254815984,
+            "first_node": 23,
+            "second_node": 27
+        },
+        {
+            "distance": 135.1076477383246,
+            "first_node": 24,
+            "second_node": 25
+        },
+        {
+            "distance": 222.23253941935303,
+            "first_node": 24,
+            "second_node": 26
+        },
+        {
+            "distance": 300.0142853498739,
+            "first_node": 24,
+            "second_node": 27
+        },
+        {
+            "distance": 90.05382386916227,
+            "first_node": 25,
+            "second_node": 26
+        },
+        {
+            "distance": 166.6639969244288,
+            "first_node": 25,
+            "second_node": 27
+        },
+        {
+            "distance": 81.88225099390849,
+            "first_node": 26,
+            "second_node": 27
+        }
+    ]
+}
