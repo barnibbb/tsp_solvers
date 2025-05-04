@@ -200,7 +200,7 @@ def genetic_algorithm(cost_matrix, population_size = 150, num_generations = 200,
 if __name__ == "__main__":
 
     if len(sys.argv) < 2:
-        print("Usage: python3 run_genetic_algorithm.py <graph.json>")
+        print("Usage: python3 run_genetic_algorithm.py <tsp_file>")
         sys.exit(1)
 
     tsp_file = sys.argv[1]
