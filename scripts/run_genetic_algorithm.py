@@ -110,11 +110,12 @@ def pmx_crossover(parent1, parent2):
 
     point1, point2 = sorted(random.sample(range(size), 2))
 
-    child1[point1:point2] = parent1[point1:point2]
-    child2[point1:point2] = parent2[point1:point2]
+    # Inclusive interval
+    child1[point1:point2 + 1] = parent1[point1:point2 + 1]
+    child2[point1:point2 + 1] = parent2[point1:point2 + 1]
 
-    mapping1 = {parent1[i]: parent2[i] for i in range(point1, point2)}
-    mapping2 = {parent2[i]: parent1[i] for i in range(point1, point2)}
+    mapping1 = {parent1[i]: parent2[i] for i in range(point1, point2 + 1)}
+    mapping2 = {parent2[i]: parent1[i] for i in range(point1, point2 + 1)}
 
     def fill_missing(child, parent, mapping):
         for i in range(size):
@@ -136,7 +137,10 @@ def inversion(route):
 
     point1, point2 = sorted(random.sample(range(size), 2))
 
-    route[point1:point2] = reversed(route[point1:point2])
+    print(point1, point2)
+
+    # Inclusive interval
+    route[point1:point2 + 1] = reversed(route[point1:point2 + 1])
 
     return route
 
@@ -193,6 +197,7 @@ def genetic_algorithm(cost_matrix, population_size = 150, num_generations = 200,
 
 
     return best_individual
+
 
 
 
