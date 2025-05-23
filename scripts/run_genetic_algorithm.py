@@ -103,6 +103,12 @@ def fp_selection(population, cost_matrix):
     return selected[0]
 
 
+def tournament_selection(population, cost_matrix, k=5):
+    tournament = random.sample(population, k)
+
+    return min(tournament, key=lambda ind: compute_fitness(ind, cost_matrix))
+
+
 
 def pmx_crossover(parent1, parent2):
     size = len(parent1)
@@ -133,84 +139,152 @@ def pmx_crossover(parent1, parent2):
 
 
 def inversion(route):
-    size = len(route)
-
+    mutant = route.copy()
+    size = len(mutant)
     point1, point2 = sorted(random.sample(range(size), 2))
-
-    print(point1, point2)
-
     # Inclusive interval
-    route[point1:point2 + 1] = reversed(route[point1:point2 + 1])
+    mutant[point1:point2 + 1] = reversed(mutant[point1:point2 + 1])
 
-    return route
+    return mutant
+
+
+def swap_mutation(route):
+    mutant = route.copy()
+    a, b = random.sample(range(len(mutant)), 2)
+    mutant[a], mutant[b] = mutant[b], mutant[a]
+
+    return mutant
+
+
+def scramble_mutation(route):
+    mutant = route.copy()
+    a, b = sorted(random.sample(range(len(mutant)), 2))
+    subsequence = mutant[a:b+1]
+    random.shuffle(subsequence)
+
+    return mutant[:a] + subsequence + mutant[b+1:]
+
+
+def insert_mutation(route):
+    mutant = route.copy()
+    a, b = random.sample(range(len(mutant)), 2)
+    node = mutant.pop(a)
+    mutant.insert(b, node)
+
+    return mutant
 
 
 
 def truncation_selection(population, cost_matrix, num_survivors):
-    population = sorted(population, key=lambda ind: compute_fitness(ind, cost_matrix))
+    fitness_cache = {}
+    normalized_counts = {}
+    penalized_fitness = []
 
-    return population[:num_survivors]
+    for ind in population:
+        ind = normalize_tour(ind)
+
+        norm = tuple(ind)
+
+        # Count appearance
+        normalized_counts[norm] = normalized_counts.get(norm, 0) + 1
+
+        # Cache raw fitness
+        if norm not in fitness_cache:
+            fitness_cache[norm] = compute_fitness(ind, cost_matrix)
+        
+        penalty = (normalized_counts[norm] - 1) * 30
+        penalized_fitness.append((fitness_cache[norm] + penalty, ind))
+
+    penalized_fitness.sort(key=lambda x: x[0])
+
+    selected = penalized_fitness[:num_survivors]
+    selected_inds = [normalize_tour(ind) for (_, ind) in selected]
+    selected_fitness = [mod_fitness for (mod_fitness, _) in selected]
+
+    return selected_inds, selected_fitness
 
 
 
-def genetic_algorithm(cost_matrix, population_size = 150, num_generations = 200, num_survivors = 75):
+def normalize_tour(tour):
+    idx = tour.index(min(tour))
+
+    return tour[idx:] + tour[:idx]
+
+
+
+
+def genetic_algorithm(cost_matrix, population_size = 150, num_generations = 200, num_survivors = 75, selection_type="fp", mutation_type="inversion"):
 
     n = len(cost_matrix)
 
-    population = [random.sample(range(n), n) for _ in range(population_size)]
+    # Generating initial population
+    population = [random.sample(range(n), n) for _ in range(population_size)] 
 
     for generation in range(num_generations):
-        offspring = []
+        offsprings = []
         mutants = []
 
+        # Peform PMX crossover to obtain offsprings
         for _ in range(population_size // 2):
-            for _ in range(100):
+
+            if selection_type == "fp":
                 parent1 = fp_selection(population, cost_matrix)
                 parent2 = fp_selection(population, cost_matrix)
-
-                if (parent1 != parent2):
-                    break
+            elif selection_type == "tournament":                
+                parent1 = tournament_selection(population, cost_matrix)
+                parent2 = tournament_selection(population, cost_matrix)
+            else:
+                print("Selection type must be set")
 
             child1, child2 = pmx_crossover(parent1, parent2)
 
             if child1 != parent1 and child1 != parent2:
-                offspring.append(child1)
+                offsprings.append(child1)
 
             if child2 != parent1 and child2 != parent2:
-                offspring.append(child2)
+                offsprings.append(child2)
 
-            
-        for individual in offspring:
+
+        # Perform mutation in 30% of the offsprings    
+        for individual in offsprings:
             if random.random() < 0.3:
-                mutant = inversion(individual)
+                if mutation_type == "inversion":
+                    mutant = inversion(individual)
+                elif mutation_type == "swap":
+                    mutant = swap_mutation(individual)
+                elif mutation_type == "scramble":
+                    mutant = scramble_mutation(individual)
+                elif mutation_type == "insert":
+                    mutant = insert_mutation(individual)
+                else:
+                    print("Mutation type must be set")
                 mutants.append(mutant)
+                # print(individual)
+                # print(mutant)
+                # return
 
-        population = truncation_selection(population + offspring + mutants, cost_matrix, num_survivors)
+        # Select survivals for the next generation with truncation
+        population, fitnesses = truncation_selection(population + offsprings + mutants, cost_matrix, num_survivors)
 
         best_individual = min(population, key=lambda ind: compute_fitness(ind, cost_matrix))
 
-        print(f"Generation {generation}, Best fitness: {compute_fitness(best_individual, cost_matrix)}, Population size: {len(population + offspring + mutants)}")
-
-    for i in range(len(population)):
-        print(i, population[i])
-        print('\n')
-
+        # Print best individual in each iteration
+        # print(f"Generation {generation}, Best fitness: {compute_fitness(best_individual, cost_matrix)}, Population size: {len(population + offsprings + mutants)}")        
 
     return best_individual
 
 
 
 
-
 if __name__ == "__main__":
 
-    if len(sys.argv) < 2:
-        print("Usage: python3 run_genetic_algorithm.py <tsp_file>")
+    if len(sys.argv) < 4:
+        print("Usage: python3 run_genetic_algorithm.py <tsp_file> <selection_type> <mutation_type>")
         sys.exit(1)
 
     tsp_file = sys.argv[1]
-
-    start_time = time.time()
+    selection_type = sys.argv[2]
+    mutation_type = sys.argv[3]
 
     extension = os.path.splitext(tsp_file)[1]
 
@@ -222,12 +296,18 @@ if __name__ == "__main__":
         print("Invalid file format.")
         sys.exit(1)
 
-    best_route = genetic_algorithm(cost_matrix)
 
-    end_time = time.time()
+    for _ in range(0, 10):
+        start_time = time.time()
 
-    execution_time = end_time - start_time
+        best_route = genetic_algorithm(cost_matrix, population_size = 200, num_generations = 500, num_survivors = 100, selection_type=selection_type, mutation_type=mutation_type)
 
-    print(f"Best route: {best_route}")
-    print(f"Total cost: {compute_fitness(best_route, cost_matrix)}")
-    print(f"GA execution time: {execution_time}.")
+        end_time = time.time()
+
+        execution_time = end_time - start_time
+
+        print(f"{compute_fitness(best_route, cost_matrix)} {execution_time}")
+
+    # print(f"Best route: {best_route}")
+    # print(f"Total cost: {compute_fitness(best_route, cost_matrix)}")
+    # print(f"GA execution time: {execution_time}.")
