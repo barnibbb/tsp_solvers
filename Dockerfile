@@ -153,3 +153,10 @@ RUN cd /home/appuser && \
     mkdir /home/appuser/NeuroLKH/SRC/OBJ && \
     make
 
+
+# Download MatNet
+USER appuser
+RUN pip install pytz matplotlib && \
+    cd /home/appuser && \
+    git clone https://github.com/yd-kwon/MatNet.git
+
