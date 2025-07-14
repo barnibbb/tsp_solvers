@@ -153,10 +153,17 @@ RUN cd /home/appuser && \
     mkdir /home/appuser/NeuroLKH/SRC/OBJ && \
     make
 
-
-# Download MatNet
+# Download VSR-LKH
 USER appuser
-RUN pip install pytz matplotlib && \
-    cd /home/appuser && \
-    git clone https://github.com/yd-kwon/MatNet.git
+RUN cd /home/appuser && \
+    git clone https://github.com/JHL-HUST/VSR-LKH.git && \
+    cd /home/appuser/VSR-LKH && \
+    make
+
+
+# Download mlrose for GA reference
+USER appuser
+RUN pip install matplotlib && \
+    pip install joblib==1.1.0 mlrose-hiive
+
 

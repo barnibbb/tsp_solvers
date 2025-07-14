@@ -1,7 +1,8 @@
 #add all the local processes to xhost, so the container reaches the window manager
 xhost + local:
 
-data="./data"
+#data="./data"
+data="/home/barni/Programs/tkp/tsp_data"
 codes="./scripts"
 vscode_folder="./misc/.vscode"
 container_name="tsp_solvers_docker"
